@@ -1,0 +1,11 @@
+.container{
+    padding: 20px;
+}
+.header{
+    font-family: 'regular';
+    font-size: 20px;
+    display: block;
+}
+h1{
+    font-family: 'bold';
+}

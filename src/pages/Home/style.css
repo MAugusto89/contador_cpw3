@@ -1,0 +1,27 @@
+.principal {
+    background-color: #efeff0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+}
+textarea{
+    border: none;
+    font-family: 'bold';
+    padding: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+}
+.result{
+    font-size: 20px;
+    font-family: 'regular';
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+.result p{
+    padding-right: 10px;
+}
