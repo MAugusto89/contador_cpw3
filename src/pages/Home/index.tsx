@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./style.css";
+import style from "./style.module.css";
 
 function Home() {
   const [text, setText] = useState("");
@@ -14,14 +14,14 @@ function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <div className="principal">
+      <div className={style.principal}>
         <textarea
           id="textArea"
           placeholder="Digite seu texto aqui"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        <div className="result">
+        <div className={style.result}>
           <p>Palavras: {wordCount}</p>
           <p>Caracteres: {charCount}</p>
         </div>
